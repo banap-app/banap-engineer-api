@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",              // Para usar módulos ECMAScript
+    "moduleResolution": "Node",      // Resolução de módulos estilo Node.js
+    "target": "ES2020",              // Compilar para ESNext
+    "esModuleInterop": true,         // Ativar interoperabilidade entre CommonJS e ESM
+    "outDir": "./dist",              // Diretório onde os arquivos compilados serão gerados
+    "rootDir": "./",              // Diretório raiz dos arquivos de origem
+    "strict": true,                  // Ativar verificação estrita de tipos
+    "skipLibCheck": true,            // Ignorar verificação de tipos das dependências
+    "resolveJsonModule": true,       // Permitir importação de arquivos JSON
+    "allowJs": true                  // Permitir que arquivos .js sejam processados (opcional)
+  },
+  "include": [
+    "src/**/*.ts",
+    "index.ts"
+  ],
+  "exclude": [
+    "node_modules"                   // Excluir node_modules
+  ]
+}
